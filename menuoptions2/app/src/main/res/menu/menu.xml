@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="example.com.optionmenu.MainActivity">
+
+    <item android:id="@+id/item1"
+
+        android:title="Contacts"/>
+    <item android:id="@+id/item2"
+
+        android:title="Settings"/>
+
+
+    <item android:id="@+id/message"
+
+        android:title="message"
+
+        app:showAsAction="always"
+
+        android:icon="@android:drawable/btn_star"/>
+    <item android:id="@+id/search"
+        android:title="search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"/>
+    <item android:id="@+id/call"
+        android:title="call"
+        android:icon="@android:drawable/ic_menu_call"
+        app:showAsAction="always"/>
+
+</menu>
